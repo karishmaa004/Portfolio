@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Karishma Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Karishma</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#">Certifications</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#">Extra Curricular</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#">Contact me</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#home">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#extracurricular">Extra Curricular</a>
+                <a href="#contact">Contact me</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+        </nav>
+        <section id="home">
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                    <img src="main.png" alt="Profile ">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey, I'm <span>Karishma</span></h1>
+                    <div class="webdeveloper" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a<span></span></div>
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000"> Motivated Computer Science Engineering student at SRM Institute of Science and Technology with a strong foundation in 
+programming languages including C++, Python, HTML, CSS, and JavaScript. Experienced in web development and passionate 
+about leveraging technology to deliver innovative solutions. Demonstrates proven skills in data science, artificial intelligence, 
+and machine learning, complemented by hands-on project experience and active participation in technical events and 
+hackathons. Eager to contribute to dynamic teams and drive advancements in the tech industry.</p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                        <a href="https://github.com/karishmaa004"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/karishma-kapoor-91206a244/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                        <a href="https://drive.google.com/uc?export=download&id=1WNp7kOua4PJcUWSniVqe5a_LsrPgeLDJ">
+                        <button>Download Resume</button></a>
+                    </div>
+                </div>
+            </div>
+        <section id="projects">
+    <h2 class="section-title" data-aos="fade-down">My Projects</h2>
+    <div class="projects-container" data-aos="fade-up" data-aos-delay="200">
+      <div class="project-card">
+        <h3>Credit Card Fraud Detection</h3>
+        <p>Built a machine learning model using logistic regression to detect fraudulent transactions. Achieved 98% accuracy.</p>
+        <a href="https://github.com/karishmaa004/Credit-Card-Fraud-Detection">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>E-Commerce Website</h3>
+        <p>Personal responsive portfolio website using HTML, CSS, and JS with animation support using AOS library.</p>
+        <a href="https://github.com/karishmaa004/E---Commerce-Website">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Expense Tracker</h3>
+        <p>Python app to track daily expenses and generate monthly reports.</p>
+        <a href="https://github.com/karishmaa004/Expense-Tracker">View Project</a>
+        </div>
+        <div class="project-card">
+        <h3>Airlines Management System</h3>
+        <p>Built a MySQL-based system for managing flights, bookings, and passenger records with efficient SQL queries for streamlined operations.</p>
+        <a href="https://github.com/karishmaa004/Airlines-Management-System">View Project</a>
+        </div>
+        <div class="project-card">
+        <h3>Landing Pages</h3>
+        <p>Collection of responsive landing pages built using HTML, CSS, and JavaScript.</p>
+        <a href="https://github.com/karishmaa004/Landing-Pages">View Project</a>
+        </div>
+    </div>
+  </section>
+  <section id="certifications">
+    <h2 class="section-title" data-aos="fade-down">Certifications</h2>
+  <div class="projects-container" data-aos="fade-up">
+
+    <div class="project-card">
+      <h3>Machine Learning Pipelines with Azure ML Studio</h3>
+      <p>Earned from Coursera. Learned to build, deploy, and manage ML models using Azure’s no-code and low-code tools.</p>
+      <a href="https://coursera.org/share/a11d420c9ce840489e36029ee80a953c" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Build an Automated Landing Page using Wix ADI</h3>
+      <p>Created a professional landing page using Wix ADI. Gained experience in lead generation and email automation.</p>
+      <a href="https://drive.google.com/file/d/1PRTA2GM_dWcN9J0YDVmJTVpcCfbd7_MJ/view?usp=drive_link" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Data Science – Infosys Springboard</h3>
+      <p>Completed training in data analysis, predictive modeling, and business insights using statistical and machine learning tools.</p>
+      <a href="https://drive.google.com/file/d/1iyVGx-amO0DZQxkNjXFHcZkBEhD1Rhx5/view?usp=sharing" target="_blank">View Certificate</a>
+    </div>
+    </div>
+  </section>
+  <section id="extracurricular">
+    <h2 class="section-title" data-aos="fade-down">Extra Curricular</h2>
+    <div class="projects-container" data-aos="fade-up">
+      <div class="project-card">
+        <h3>Core Member – ISTE SRM NCR</h3>
+        <p>Serving as a Core Member of the Indian Society for Technical Education (ISTE) SRM NCR since Aug 2024. Actively involved in content writing and public relations activities, contributing to event planning and outreach.</p>
+        <a href="https://drive.google.com/file/d/1fkvEc4aapImCaTKvN6sIzUNMrwjC1ovG/view?usp=drive_link">View Certificate</a>
+      </div>
+      <div class="project-card">
+        <h3>Organising Committee – HackHound 3.0</h3>
+        <p>Led logistics and community engagement for HackHound 3.0 in Feb 2025, a prestigious 24-hour hackathon at SRMIST. Provided technical and management support for smooth execution.</p>
+        <a href="https://drive.google.com/file/d/1TGJbIzd26FYuFH73-VsALlQ5aob7B4Md/view?usp=drive_link">View Certificate</a>
+      </div>
+      <div class="project-card">
+      <h3>Organising Committee – HackHound 2.0</h3>
+      <p>Organised HackHound 2.0 in April 2024. Coordinated technical and logistics operations for the event under the HackHound banner at SRM Institute of Science and Technology.</p>
+      <a href="https://drive.google.com/file/d/1wcqq4IEP2ipe4I32WMokHEnmArCEnmAC/view?usp=drive_link">View Certificate</a>
+    </div>
+    <div class="project-card">
+      <h3>Organising Committee – INNOVATE’24</h3>
+      <p>Was a part of the organising committee for INNOVATE’24 Tech Fest at SRMIST in April 2024. Managed the Tech Talk event and was responsible for public relations and certificate coordination.</p>
+      <a href="https://drive.google.com/file/d/1u025V6ySkI5MgBSbhVBVG4g3bOA3vjp_/view?usp=sharing">View Certificate</a>
+    </div>
+     <div class="project-card">
+      <h3>Organising Committee – RUBAROO’22</h3>
+      <p>Contributed to the success of RUBAROO’22, the cultural fest at SRMIST in April 2022. Managed the dance event and handled logistics and participant coordination. Gained hands-on experience in event management.</p>
+    </div>
+    </div>
+  </section>
+  <section id="contact">
+  <h2 class="section-title" data-aos="fade-down">Contact Me</h2>
+  <div class="projects-container" style="display: flex; flex-direction: column; align-items: center;" data-aos="fade-up">
+    <form action="mailto:kk9243@srmist.edu.in" method="POST" enctype="text/plain" class="contact-form" style="width: 100%; max-width: 600px; display: flex; flex-direction: column; gap: 15px;">
+      <input type="text" name="name" placeholder="Your Name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+      <input type="email" name="email" placeholder="Your Email" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+      <textarea name="message" rows="5" placeholder="Your Message" required style="padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+      <button type="submit" style="padding: 10px 20px; background-color: rgb(109,67,0); color: white; border: none; border-radius: 5px; cursor: pointer;">Send</button>
+    </form>
+  </div>
+</section>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+  function hamburg() {
+    document.querySelector(".dropdown").classList.add("active");
+  }
+  function cancel() {
+    document.querySelector(".dropdown").classList.remove("active");
+  }
+  document.querySelectorAll(".dropdown .links a").forEach(link => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const href = this.getAttribute("href");
+      if (href && href.startsWith("#")) {
+        const target = document.querySelector(href);
+        if (target) {
+          document.querySelector(".dropdown").classList.remove("active");
+          setTimeout(() => {
+            target.scrollIntoView({ behavior: "smooth" });
+          }, 300);
+        }
+      }
+    });
+  });
+  document.querySelectorAll(".nav-container .links a").forEach(link => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const href = this.getAttribute("href");
+      if (href && href.startsWith("#")) {
+        const target = document.querySelector(href);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    });
+  });
+</script>
+</body>
+</html>
